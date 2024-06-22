@@ -1,0 +1,42 @@
+.center-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%; /* Adjust width as needed */
+    max-width: 600px; /* Adjust max-width as needed */
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+.btn {
+    border-radius: 20px; /* Rounded corners for buttons */
+}
+
+.btn-primary:hover {
+    background-color: hotpink; /* Change background color on hover */
+}
+
+.btn-secondary:hover {
+    background-color: hotpink; /* Change background color on hover */
+}
+
+h1 {
+	text-align: center;
+}
+
+.card {
+	width: 100%; /* Ensure cards take full width of container */
+}
+
+.card-body {
+	padding: 20px; /* Padding inside card body */
+}
